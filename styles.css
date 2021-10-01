@@ -6,6 +6,99 @@
 
 body {
   font-size: 62.5%;
-  font-family: "Raleway", sans-serif;
-  background-color: rgb(163, 189, 202);
+  font-family: "PT Sans", sans-serif;
+  background-color: rgb(225, 226, 226);
+}
+
+sup {
+  /* vertical-align: super; */
+  font-size: 0.4rem;
+}
+
+.heading {
+  font-size: 1.2rem;
+  color: rgb(203, 207, 211);
+  margin: 0.4rem;
+}
+
+.header-section {
+  background-color: rgba(9, 7, 161, 0.534);
+  display: flex;
+  padding: 0.6rem;
+}
+
+.bell-icon {
+  margin: 0 0.8rem 0 auto;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  margin: 0.4rem;
+}
+
+.display-name {
+  margin-top: 0.8rem;
+  margin-right: 0.3rem;
+  font-size: 0.7rem;
+  color: rgb(203, 207, 211);
+}
+
+.icons-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(22, 20, 99, 0.692);
+  padding: 1rem;
+}
+
+.dashboard-section {
+  display: flex;
+  margin: 1rem;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  color: rgb(97, 96, 96);
+  letter-spacing: 0.03rem;
+}
+
+#search {
+  margin-left: auto;
+  padding: 0.5rem;
+  background-color: rgb(236, 235, 235);
+  border: 0.2px solid rgb(192, 192, 192);
+}
+
+.search-icon {
+  margin: 0.1rem;
+}
+
+.social-stats-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.twitter-section,
+.facebook-section,
+.google-section {
+  display: flex;
+  border: 0.2px solid rgb(192, 192, 192);
+  padding: 0.8rem;
+}
+
+.facebook-logo svg,
+.twitter-logo svg,
+.google-logo svg {
+  border-radius: 50%;
+  margin-top: 0.3rem;
+  /* fill: blue; */
+  background-color: rgba(9, 7, 161, 0.534);
+  padding: 1rem;
+}
+
+.facebook,
+.google,
+.twitter {
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+  color: rgba(22, 20, 99, 0.692);
 }

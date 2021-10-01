@@ -2,12 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Data pagination and filtering</title>
+    <title>Web app dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
+    <header class="header-section">
+      <h1 class="heading">YourApp<sup>TM</sup></h1>
+      <img
+        class="bell-icon"
+        width="18px"
+        src="/icons/icon-bell.svg"
+        alt="Bell Icon"
+      />
+      <img
+        class="profile-picture"
+        width="25px"
+        height="27px"
+        src="/icons/img-10.jpg"
+        alt="Display picture"
+      />
+      <p class="display-name">Josh Torres</p>
+    </header>
+
+    <section class="icons-section">
+      <img
+        class="dashboards-icon"
+        width="25px"
+        height="25px"
+        src="/icons/icon-dashboard.svg"
+        alt="Dashboards icon"
+      />
+
+      <img
+        class="members-icon"
+        width="25px"
+        height="25px"
+        src="/icons/icon-members.svg"
+        alt="members icon"
+      />
+
+      <img
+        class="visits-icon"
+        width="25px"
+        height="25px"
+        src="/icons/icon-visits.svg"
+        alt="visits icon"
+      />
+
+      <img
+        class="settings-icon"
+        width="25px"
+        height="25px"
+        src="/icons/icon-settings.svg"
+        alt="settings icon"
+      />
+    </section>
+
+    <main class="main-section">
+      <div class="dashboard-section">
+        <h2>Dashboard</h2>
+        <input type="text" id="search" placeholder="Search..." />
+        <button type="submit">
+          <img
+            class="search-icon"
+            width="20px"
+            height="20px"
+            src="/icons/search-icon.png"
+          />
+        </button>
+      </div>
+
+      <section class="social-stats-section">
+        <div class="twitter-section">
+          <img class="twitter-logo" src="/icons/icon-twitter.svg" />
+          <p class="twitter">
+            Twitter <br />
+            <span>10,345</span>
+          </p>
+        </div>
+
+        <div class="facebook-section">
+          <img
+            class="facebook-logo"
+            width="20px"
+            height="20px"
+            src="/icons/icon-facebook.svg"
+          />
+          <p class="facebook">
+            Facebook <br />
+            <span>10,345</span>
+          </p>
+        </div>
+
+        <div class="google-section">
+          <img
+            class="google-logo"
+            width="20px"
+            height="20px"
+            src="/icons/icon-google-plus.svg"
+          />
+          <p class="google">
+            Google+ <br />
+            <span>10,345</span>
+          </p>
+        </div>
+      </section>
+    </main>
+
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
